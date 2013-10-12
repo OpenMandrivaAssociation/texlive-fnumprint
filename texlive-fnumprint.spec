@@ -1,11 +1,11 @@
-# revision 27668
+# revision 29173
 # category Package
 # catalog-ctan /macros/latex/contrib/fnumprint
-# catalog-date 2012-09-13 11:27:49 +0200
+# catalog-date 2013-02-19 09:29:17 +0100
 # catalog-license lppl1.3
-# catalog-version 1.1
+# catalog-version 1.1a
 Name:		texlive-fnumprint
-Version:	1.1
+Version:	1.1a
 Release:	1
 Summary:	Print a number in 'appropriate' format
 Group:		Publishing
