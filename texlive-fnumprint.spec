@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-fnumprint
 Version:	1.1a
-Release:	6
+Release:	7
 Summary:	Print a number in 'appropriate' format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnumprint
