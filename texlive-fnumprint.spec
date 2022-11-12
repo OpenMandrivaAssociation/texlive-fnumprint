@@ -1,19 +1,13 @@
-# revision 29173
-# category Package
-# catalog-ctan /macros/latex/contrib/fnumprint
-# catalog-date 2013-02-19 09:29:17 +0100
-# catalog-license lppl1.3
-# catalog-version 1.1a
 Name:		texlive-fnumprint
-Version:	1.1a
-Release:	11
+Version:	29173
+Release:	1
 Summary:	Print a number in 'appropriate' format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnumprint
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,12 +24,12 @@ generated within the package, while those for German are
 generated using the package zahl2string.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +42,8 @@ generated using the package zahl2string.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
