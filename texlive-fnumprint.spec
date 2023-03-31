@@ -1,6 +1,6 @@
 Name:		texlive-fnumprint
 Version:	29173
-Release:	1
+Release:	2
 Summary:	Print a number in 'appropriate' format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnumprint
