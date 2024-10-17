@@ -3,7 +3,7 @@ Version:	29173
 Release:	2
 Summary:	Print a number in 'appropriate' format
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fnumprint
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fnumprint
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fnumprint.doc.r%{version}.tar.xz
